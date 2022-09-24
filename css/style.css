@@ -1,0 +1,15 @@
+* {padding: 0; margin: 0; box-sizing: border-box; padding-top: 15px; align-items: center; text-align: center;}
+
+.head {width: 40%; margin: auto; align-items: center;}
+.head a {width: 100%; margin: auto; display: flex; text-align: center; padding: 10px;}
+.logo {width: 30%;}
+.logo img {width: 40%; object-fit: contain;}
+.txt {width: 50%; font-size: 30px; color: yellowgreen; text-shadow: 1px 1px 2px black;}
+
+a {text-decoration: none; color: white;}
+
+.body {width: 70%; display: grid; grid-template-columns: .5fr 3fr 1fr 1fr 1fr; grid-gap: 20px; margin: auto; padding: 20px 5px; border: 1px solid yellowgreen; background-color: #00a6a6; color: white; font-size: 20px; font-family: sans-serif; justify-content: space-evenly;}
+.taskview {width: 70%; display: grid; grid-template-columns: .5fr 3fr 1fr 1fr 1fr; grid-gap: 20px; margin: auto; padding: 20px 5px; border-bottom: 1px solid gray; background-color: yellowgreen; font-size: 20px; font-family: 'Montserrat', sans-serif; justify-content: space-evenly;}
+input {padding: 5px 20px;}
+input.check {height: 30px; width: 50%;}
+span {color: black; font-size: 30px;}
